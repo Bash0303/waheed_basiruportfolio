@@ -16,7 +16,7 @@ const Features = () => {
   return (
     <section
       id="features"
-      className="w-full py-24 border-b border-gray-100 relative bg-[#fcfcfc]"
+      className="w-full py-8 md:py-24 border-b border-gray-100 relative bg-[#fcfcfc]"
     >
       {/* Decorative background pattern - Subtle dots */}
       <div className="absolute inset-0 z-0 opacity-[0.03]" 
@@ -24,7 +24,7 @@ const Features = () => {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col items-center text-center mb-16">
+        <div className="flex flex-col items-center text-center mb-7 md:mb-16">
           <Title title="Expertise" des="Professional Skills" />
         </div>
         

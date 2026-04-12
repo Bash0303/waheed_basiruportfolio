@@ -4,8 +4,8 @@ import ContactLeft from './ContactLeft';
 
 const Contact = () => {
   return (
-    <section id="contact" className="w-full py-20 border-b border-slate-200 bg-white">
-      <div className="flex justify-center text-center mb-14">
+    <section id="contact" className="w-full py-8 lg:py-20 border-b border-slate-200 bg-white">
+      <div className="flex justify-center text-center mb-8 md:mb-14">
         <Title title="GET IN TOUCH" des="Connect With Me" />
       </div>
       
