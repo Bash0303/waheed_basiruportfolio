@@ -24,7 +24,7 @@ const Features = () => {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col items-center text-center mb-7 md:mb-16">
+        <div className="flex flex-col items-center text-center mb-4 md:mb-16">
           <Title title="Expertise" des="Professional Skills" />
         </div>
         

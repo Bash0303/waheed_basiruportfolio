@@ -28,7 +28,7 @@ const Resume = () => {
             <li
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`px-8 py-3 rounded-lg cursor-pointer font-semibold duration-300 border-2 ${
+              className={`px-3 md:px-8 py-3 rounded-lg cursor-pointer font-semibold duration-300 border-2 ${
                 activeTab === tab.id 
                 ? "bg-midnightBlue text-white border-midnightBlue shadow-lg" 
                 : "bg-white text-midnightBlue border-gray-200 hover:border-midnightBlue"
