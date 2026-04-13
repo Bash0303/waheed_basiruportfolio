@@ -12,7 +12,7 @@ const Media = () => {
 
   return (
     <div className="flex flex-col gap-4">
-      <h2 className="text-base uppercase font-bold text-midnightBlue tracking-wide">Connect</h2>
+      <h2 className="text-base uppercase font-bold text-white tracking-wide">Connect</h2>
       <div className="flex gap-4">
         {socials.map((social, i) => (
           <a

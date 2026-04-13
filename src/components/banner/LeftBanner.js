@@ -27,14 +27,14 @@ const LeftBanner = () => {
   const handleDownloadCV = async () => {
     const element = document.getElementById('root'); // Targets your entire app
     const downloadBtn = document.getElementById('download-btn');
-    
+
     // 1. Visual feedback & cleanup for PDF
     if (downloadBtn) downloadBtn.innerText = "Generating...";
-    
+
     try {
       const canvas = await html2canvas(element, {
         scale: 2, // High resolution
-        useCORS: true, 
+        useCORS: true,
         logging: false,
         windowWidth: element.scrollWidth,
         windowHeight: element.scrollHeight
@@ -42,9 +42,9 @@ const LeftBanner = () => {
 
       const imgData = canvas.toDataURL('image/png');
       const pdf = new jsPDF('p', 'mm', 'a4');
-      
-      const imgWidth = 210; 
-      const pageHeight = 295; 
+
+      const imgWidth = 210;
+      const pageHeight = 295;
       const imgHeight = (canvas.height * imgWidth) / canvas.width;
       let heightLeft = imgHeight;
       let position = 0;
@@ -68,43 +68,39 @@ const LeftBanner = () => {
     }
   };
 
+  // Inside the return of LeftBanner.js
   return (
     <div className="flex flex-col w-full lgl:w-1/2 gap-12">
       <div className="flex flex-col gap-6">
-        <h4 className="text-sm font-bold tracking-[4px] text-midnightBlue/60 uppercase">
+        <h4 className="text-sm font-bold tracking-[4px] text-gray-300 uppercase">
           Welcome to my digital space
         </h4>
-        <h1 className="text-5xl lgl:text-6xl font-black text-midnightBlue leading-tight">
-          Hi, I'm
-          {' '}
-          <span className="text-blue-700 capitalize">Umar Ibrahim A.</span>
+        <h1 className="text-5xl lgl:text-6xl font-black text-white leading-tight">
+          Hi, I'm{' '}
+          <span className="text-sky-400 capitalize text-white">Umar Ibrahim A.</span>
         </h1>
         <div className="h-16">
-          <h2 className="text-3xl lgl:text-4xl font-bold text-midnightBlue">
+          <h2 className="text-3xl lgl:text-4xl font-bold text-white">
             a <span>{text}</span>
-            <Cursor cursorStyle="|" cursorColor="#191970" />
+            <Cursor cursorStyle="|" cursorColor="#38bdf8" />
           </h2>
         </div>
-        <p className="text-base text-justify lgl:text-sm leading-8 text-gray-600 max-w-[650px] font-bodyFont md:text-left">
-          I am a Full-Stack Developer with several years of experience delivering responsive,
-          scalable, and user-friendly applications across different industries. I focus on
-          building reliable platforms, collaborating effectively with cross-functional teams,
-          and contributing to team growth through knowledge sharing, mentoring, and open
-          collaboration. Always eager to learn from teammates while bringing value through
-          technical expertise and problem-solving.
+        <p className="flex text-base text-justify lgl:text-sm leading-8 text-gray-300 max-w-[650px] font-bodyFont md:text-left">
+          I am a Full-Stack Developer with several years of experience delivering responsive, scalable, and user-friendly applications
+          across different industries. I focus on building reliable platforms, collaborating effectively with cross-functional teams, and
+          contributing to team growth through knowledge sharing, mentoring, and open collaboration. Always eager to learn from
+          teammates while bringing value through technical expertise and problem-solving.
         </p>
       </div>
 
       <div className="flex flex-col sm:flex-row gap-10 sm:items-center">
         <Media />
         <div className="flex flex-col gap-4">
-          <h2 className="text-base uppercase font-bold text-midnightBlue">
-            Quick Action
-          </h2>
-          <button 
+          <h2 className="text-base uppercase font-bold text-white">Quick Action</h2>
+          <button
             id="download-btn"
             onClick={handleDownloadCV}
-            className="px-8 py-4 bg-midnightBlue text-white font-bold rounded-xl shadow-xl hover:bg-blue-900 hover:-translate-y-1 transition-all duration-300 active:scale-95"
+            className="px-8 py-4 bg-white text-[#191970] font-bold rounded-xl shadow-xl hover:bg-gray-200 hover:-translate-y-1 transition-all duration-300"
           >
             Download CV
           </button>
