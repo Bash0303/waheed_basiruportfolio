@@ -34,23 +34,23 @@ const Education = () => {
           <ResumeCard
             title="DEBISLAND COLLEGE"
             subTitle="WEST AFRICAN SECONDARY SCHOOL CERTIFICATE (WASSCE) (Agbede Olosugbo, Ikorodu, Lagos State.)"
-            result="2010 - 2013"
+            result="2012 - 2013"
             des="Secondary School Education."
           />
     
           <ResumeCard
             title="ISAWO COMPREHENSIVE JUNIOR HIGH SCHOOL"
             subTitle="JUNIOR SECONDARY SCHOOL (Isawo, Ikorodu, Lagos State.)"
-            result="2007 - 2010"
+            result="2007 - 2012"
             des="Junior Secondary School Education."
           />
 
-          <ResumeCard
+          {/* <ResumeCard
             title="VICTORY FOUNDATION INTERNATIONAL SCHOOL"
             subTitle="FIRST SCHOOL LEAVING CERTIFICATE (Agbede Olosugbo, Ikorodu, Lagos State.)"
             result="2002 - 2007"
             des="Primary School Education."
-          />
+          /> */}
         </div>
       </div>
     </motion.div>
