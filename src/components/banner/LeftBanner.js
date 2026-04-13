@@ -10,7 +10,7 @@ const LeftBanner = () => {
       'FullStack Engineer.',
       'Mobile App Developer.',
       'Laravel Expert.',
-      'React Specialist.',
+      'Frontend Specialist.',
       'System Architect.',
       'UI/UX Enthusiast.',
     ],
@@ -81,7 +81,7 @@ const LeftBanner = () => {
         </h1>
         <div className="h-16">
           <h2 className="text-3xl lgl:text-4xl font-bold text-white">
-            a <span>{text}</span>
+            A <span>{text}</span>
             <Cursor cursorStyle="|" cursorColor="#38bdf8" />
           </h2>
         </div>
