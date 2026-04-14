@@ -39,14 +39,23 @@ const Experience = () => {
             des2="Integrated real-time data APIs to provide users with accurate financial information and seamless transaction flows."
           />
 
+          {/* Code Circle - Frontend Engineer */}
+          <ResumeCard5
+            title="Full Stack Engineer | Code Instructor"
+            subTitle="Code Circle | Ilorin, Kwara State, Nigeria"
+            result="Dec. 2025 till Date"
+            des="-"
+          />
+
           {/* Urello - Frontend Engineer */}
           <ResumeCard5
             title="Frontend Engineer"
             subTitle="Urello | Lagos, Nigeria"
             result="Dec. 2025 – FEB 2026"
-            des="Developed responsive and interactive user interfaces using React, Vue.js, TypeScript, and JavaScript."
+            des="Developed responsive and interactive user interfaces using javascript frameworks."
             des2="Collaborated with backend teams to integrate RESTful APIs (.NET) and optimize database interactions."
           />
+
 
           {/* SkoolRight - Frontend Engineer */}
           <ResumeCard5
