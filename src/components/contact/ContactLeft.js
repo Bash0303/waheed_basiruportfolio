@@ -5,10 +5,10 @@ import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
   const socialLinks = [
-    { icon: <FaInstagram />, link: "https://www.instagram.com/stopbegging01" },
-    { icon: <FaTwitter />, link: "https://x.com/stopbegging95" },
-    { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/feed/" },
-    { icon: <IoLogoWhatsapp />, link: "https://wa.me/+2348165371302" },
+    { icon: <FaInstagram />, link: "https://www.instagram.com/waheedbasiru_19549104?igsh=MWh6Y3owazc1Njh1bg%3D%3D&utm_source=qr" },
+    { icon: <FaTwitter />, link: "https://x.com/refresh_0303?s=21" },
+    { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/waheed-basiru-46b860233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
+    { icon: <IoLogoWhatsapp />, link: "https://wa.me/+2349063836085" },
   ];
 
   return (
@@ -25,7 +25,7 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-6">
         <div>
           <h3 className="text-3xl font-black text-slate-900 tracking-tight uppercase">
-            Umar Ibrahim A.
+            WAHEED Basiru.
           </h3>
           <p className="text-blue-600 font-semibold text-sm tracking-widest uppercase mt-1">
             Full-Stack Engineer
@@ -45,7 +45,7 @@ const ContactLeft = () => {
             </span>
             <div className="flex flex-col">
               <span className="text-xs font-bold text-slate-400 uppercase">Call Me</span>
-              <span className="text-slate-800 font-semibold">08059971709, 09157779553</span>
+              <span className="text-slate-800 font-semibold">09079946343, 09063836085</span>
             </div>
           </div>
 
@@ -55,7 +55,7 @@ const ContactLeft = () => {
             </span>
             <div className="flex flex-col">
               <span className="text-xs font-bold text-slate-400 uppercase">Email</span>
-              <span className="text-slate-800 font-semibold">umaribrahimayobami@gmail.com</span>
+              <span className="text-slate-800 font-semibold">lardext.com2019@gmail.com</span>
             </div>
           </div>
 
@@ -65,7 +65,7 @@ const ContactLeft = () => {
             </span>
             <div className="flex flex-col">
               <span className="text-xs font-bold text-slate-400 uppercase">WhatsApp</span>
-              <span className="text-slate-800 font-semibold">+234 816 537 1302</span>
+              <span className="text-slate-800 font-semibold">+2349063836085</span>
             </div>
           </div>
         </div>

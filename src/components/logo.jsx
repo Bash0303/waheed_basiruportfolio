@@ -52,7 +52,7 @@ const Logo = ({ variant = "default", size = "md" }) => {
       </svg>
     </div>
     <div className="flex flex-col tracking-tighter">
-      <span className="font-bold text-slate-900 leading-none">UMAR IBRAHIM</span>
+      <span className="font-bold text-slate-900 leading-none">WAHEED BASIRU </span>
       <span className="text-[10px] uppercase text-slate-500 tracking-widest font-semibold">Software Engineer</span>
     </div>
   </div>

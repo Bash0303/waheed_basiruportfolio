@@ -38,16 +38,10 @@ export const featuresData = {
     { id: 2, icon: <SiCss3 />, title: "CSS 3" },
     { id: 3, icon: <SiJavascript />, title: "JAVASCRIPT" },
     { id: 4, icon: <SiTypescript />, title: "TYPESCRIPT" },
-    { id: 5, icon: <FaBootstrap />, title: "BOOTSTRAP" },
     { id: 6, icon: <SiTailwindcss />, title: "TAILWIND CSS" },
-    { id: 7, icon: <MaterialUIIcon />, title: "MATERIAL UI" },
     { id: 10, icon: <FaReact />, title: "REACT JS" },
-    { id: 21, icon: <FaVuejs />, title: "VUE JS" },
-    { id: 11, icon: <NextIcon />, title: "NEXT JS" },
-    { id: 22, icon: <NuxtIcon />, title: "NUXT JS" }
   ],
   backend: [
-    { id: 12, icon: <SiLaravel />, title: "LARAVEL" },
     { id: 14, icon: <IoLogoNodejs />, title: "NODE JS" },
     { id: 23, icon: <FaPhp />, title: "PHP" }
   ],
@@ -68,14 +62,13 @@ export const featuresData = {
 
 // Keep your existing projects data
 export const featuresProject = [
-  { id: 1, title: "Unique Friends Schools", des: "https://uniquefriendsschools.com" },
-  { id: 2, title: "Balad Private Schools", des: "www.baladprivateschools.com" },
-  { id: 3, title: "SkoolRight", des: "www.skoolright.com" },
+  { id: 1, title: "CODSTAKE Prediction Platform", des: "https://codstake.com" },
+  { id: 2, title: "CodeCircle Tech Hub", des: "www.codecircle.com.ng" },
+  { id: 3, title: "codecircle scholarship portal", des: "www.scholarship.codecircle.com.ng" },
   { id: 4, title: "Wumbis Concept", des: "www.wumbisconcept.com" },
-  { id: 5, title: "Bankole", des: "www.bankole.ng" },
-  { id: 7, title: "Bonnarvoo Paint", des: "www.bonnarvoopaint.com" },
-  { id: 8, title: "Aboki-Xchange", des: "under development" },
-  { id: 9, title: "ESEMEL", des: "https://jupebapplicationfrontend.onrender.com/" },
-  { id: 10, title: "BULQ", des: "Under Development" },
-  { id: 11, title: "Urello | Tivro Africa", des: "https://tivro.africa/" }
+  { id: 5, title: "Ajayi Staff Portal", des: "www.bankole.ng" },
+  { id: 7, title: "Bonnarvoo Paint", des: " https://acu-staff-portal-frontend.onrender.com" },
+  { id: 8, title: "Bipolar Mental Disorder", des: "https://bipolar-mental-disorder.onrender.com" },
+  { id: 9, title: "RefreshLearn", des: "Under Development" },
+  { id: 10, title: "AjoSave Fintech App", des: "Under Development" }
 ];

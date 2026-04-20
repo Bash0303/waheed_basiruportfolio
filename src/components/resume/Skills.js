@@ -16,15 +16,14 @@ const Skills = () => {
   ];
 
   const technicalSkills = [
-    { name: "React / Next.js", value: "95%" },
-    { name: "React Native (Mobile)", value: "85%" },
-    { name: "Laravel / PHP", value: "90%" },
+    { name: "ReactJS", value: "90%" },
+    { name: "React Native (Mobile)", value: "80%" },
     { name: "Node.js / Express", value: "85%" },
     { name: "TypeScript / JavaScript", value: "90%" },
-    { name: "Material UI / Bootstrap / Tailwind CSS / Bulma", value: "95%" },
+    { name: "HTML/CSS /Tailwind CSS", value: "95%" },
     { name: "Database (MongoDB / SQL)", value: "85%" },
     { name: "Github", value: "80%" },
-    { name: "Azure ", value: "50%" },
+    { name: "Digital Ocean ", value: "50%" },
   ];
 
   const SkillBar = ({ name, value }) => (

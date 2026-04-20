@@ -11,6 +11,7 @@
     "emailjs": "^4.0.3",
     "framer-motion": "^8.4.2",
     "html2canvas": "^1.4.1",
+    "i": "^0.3.7",
     "jspdf": "^4.2.1",
     "portfolioyoutube": "file:",
     "react": "^18.2.0",

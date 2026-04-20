@@ -9,7 +9,6 @@ const LeftBanner = () => {
     words: [
       'FullStack Engineer.',
       'Mobile App Developer.',
-      'Laravel Expert.',
       'Frontend Specialist.',
       'System Architect.',
       'UI/UX Enthusiast.',
@@ -77,7 +76,7 @@ const LeftBanner = () => {
         </h4>
         <h1 className="text-5xl lgl:text-6xl font-black text-white leading-tight">
           Hi, I'm{' '}
-          <span className="text-sky-400 capitalize text-white">Umar Ibrahim A.</span>
+          <span className="text-sky-400 capitalize text-white">WAHEED Basiru.</span>
         </h1>
         <div className="h-16">
           <h2 className="text-3xl lgl:text-4xl font-bold text-white">
@@ -86,10 +85,10 @@ const LeftBanner = () => {
           </h2>
         </div>
         <p className="flex text-base text-justify lgl:text-sm leading-8 text-gray-300 max-w-[650px] font-bodyFont md:text-left">
-          I am a Full-Stack Developer with several years of experience delivering responsive, scalable, and user-friendly applications
-          across different industries. I focus on building reliable platforms, collaborating effectively with cross-functional teams, and
-          contributing to team growth through knowledge sharing, mentoring, and open collaboration. Always eager to learn from
-          teammates while bringing value through technical expertise and problem-solving.
+        Motivated Computer Scientist with strong foundation in Software Development, Algorithms
+         and Data Structures. Passionate about building efficient, Scalable solution and exploring
+          emerging technologies in AI and Distributed Systems. Seeking opportunities to contribute 
+          technical skills and continue learning in a challenging environment .
         </p>
       </div>
 

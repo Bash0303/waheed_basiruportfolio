@@ -4,10 +4,10 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 const Media = () => {
   const socials = [
-    { icon: <FaInstagram />, link: "https://www.instagram.com/stopbegging01" },
-    { icon: <FaTwitter />, link: "https://x.com/stopbegging95" },
-    { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/umar-ibrahim-ayobami-87873454/" },
-    { icon: <IoLogoWhatsapp />, link: "https://wa.me/+2348165371302" },
+    { icon: <FaInstagram />, link: "https://www.instagram.com/waheedbasiru_19549104?igsh=MWh6Y3owazc1Njh1bg%3D%3D&utm_source=qr" },
+    { icon: <FaTwitter />, link: "https://x.com/refresh_0303?s=21" },
+    { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/waheed-basiru-46b860233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
+    { icon: <IoLogoWhatsapp />, link: "https://wa.me/+2349063836085" },
   ];
 
   return (

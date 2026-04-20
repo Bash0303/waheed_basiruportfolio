@@ -81,7 +81,7 @@ const Contact = () => {
                   name="user_name"
                   className="w-full h-14 bg-slate-50 rounded-xl border-2 border-slate-200 px-4 text-black font-medium outline-none focus:border-blue-700 focus:bg-white transition-all duration-300 placeholder:text-slate-400"
                   type="text" 
-                  placeholder="e.g. John Doe"
+                  placeholder="e.g. Waheed Basiru"
                   required
                 />
               </div>
@@ -95,7 +95,7 @@ const Contact = () => {
                   name="user_phone"
                   className="w-full h-14 bg-slate-50 rounded-xl border-2 border-slate-200 px-4 text-black font-medium outline-none focus:border-blue-700 focus:bg-white transition-all duration-300 placeholder:text-slate-400"
                   type="text" 
-                  placeholder="e.g. +234 816 537 1302"
+                  placeholder="e.g. +234 9063836085"
                 />
               </div>
             </div>
@@ -109,7 +109,7 @@ const Contact = () => {
                 name="user_email"
                 className="w-full h-14 bg-slate-50 rounded-xl border-2 border-slate-200 px-4 text-black font-medium outline-none focus:border-blue-700 focus:bg-white transition-all duration-300 placeholder:text-slate-400"
                 type="email" 
-                placeholder="umaribrahimayobami@gmail.com"
+                placeholder="lardext.com2019@gmail.com"
                 required
               />
             </div>

@@ -1,7 +1,7 @@
 import html2canvas from 'html2canvas';
 import { jsPDF } from 'jspdf';
 
-export const exportPDF = async (elementId, fileName = "Umar_Ibrahim_CV.pdf") => {
+export const exportPDF = async (elementId, fileName = "Waheed_Basiru_CV.pdf") => {
   const element = document.getElementById(elementId);
   if (!element) return;
 

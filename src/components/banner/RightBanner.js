@@ -21,7 +21,7 @@ const RightBanner = () => {
 
       {/* Floating Badge (Modern Touch) */}
       <div className="absolute -bottom-6 -right-2 lgl:right-10 bg-white p-6 rounded-2xl shadow-2xl z-20 border border-gray-100 animate-bounce-slow">
-        <p className="text-midnightBlue font-black text-2xl lgl:text-3xl">7+</p>
+        <p className="text-midnightBlue font-black text-2xl lgl:text-3xl">4+</p>
         <p className="text-xs text-black uppercase font-bold tracking-widest">Years Experience</p>
       </div>
     </div>
