@@ -59,7 +59,7 @@ const LeftBanner = () => {
         heightLeft -= pageHeight;
       }
 
-      pdf.save("Umar_Ibrahim_Ayobami_CV.pdf");
+      pdf.save("Waheed_Basiru_CV.pdf");
     } catch (error) {
       console.error("PDF Export Error:", error);
     } finally {
